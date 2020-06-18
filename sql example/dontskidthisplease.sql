@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `dontskidthisplease` (
   `id` int(255) NOT NULL,
   `ip` varchar(255) NOT NULL,
-  `oneip` varchar(255) NOT NULL DEFAULT 'true',
+  `oneip` varchar(255) NOT NULL,
   `keybyip` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
