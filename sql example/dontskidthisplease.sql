@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost
--- Généré le : jeu. 18 juin 2020 à 21:30
+-- Généré le : jeu. 18 juin 2020 à 21:38
 -- Version du serveur :  10.1.44-MariaDB-0+deb9u1
 -- Version de PHP : 7.4.6
 
@@ -30,6 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `dontskidthisplease` (
   `id` int(255) NOT NULL,
   `ip` varchar(255) NOT NULL,
+  `oneip` varchar(255) NOT NULL DEFAULT 'true',
   `keybyip` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
